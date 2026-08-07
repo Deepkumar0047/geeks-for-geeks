@@ -1,4 +1,4 @@
-/*
+/* Structure of Binary Tree Node
 class Node {
   public:
     int data;
@@ -7,14 +7,13 @@ class Node {
 
     Node(int val) {
         data = val;
-        left = NULL;
-        right = NULL;
+        left = right = nullptr;
     }
-};
-*/
+};*/
 
 class Solution {
-public:
+  public:
+
     void inorder(Node* root, vector<int> &ans) {
         if (root == NULL)
             return;
